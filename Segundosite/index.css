@@ -1,0 +1,65 @@
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.descricao {
+    font-size: 10pt;
+    text-align: center;
+    color: rgb(18, 93, 83)
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.esquerda {
+    display: flex;
+    justify-content: left;
+    color: brown;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+div h2 {
+    font-size: 27pt;
+}
+
+div p {
+    font-size: 17pt;
+    text-align: justify;
+
+}
+
+img {
+    border-radius: 10px;
+    border-style: initial;
+
+}
+
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(./Img/fundo.jpg);
+
+}
+
+footer {
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 20px;
+}
