@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+body {
+    background-image: radial-gradient(circle at 50% 50%, #ffffff 0, #ffffff 10%, #ecffff 20%, #d2ffff 30%, #b4f8ff 40%,
+    #93e9ff 50%, #6fdafb 60%, #4bcbf9 70%, #1dbef8 80%, #00b1f7 90%, #00a5f5 100%);
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 27%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.ficha {
+    all: unset;
+    overflow: scroll;
+    height: 180px;
+    width: 370px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    border-radius: 10px;
+    background-color: rgba(20, 20, 20, 0.1);
+}
+
+.ficha::-webkit-scrollbar {
+    all: unset;
+}
+
+.comprar {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    gap: 5px;
+}
+
+.btn {
+    all: unset;
+    margin: 0 50px 0 50px;
+    border-radius: 10px;
+    
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#container_pai {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.img {
+    height: 250px;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+#logo_xiaome {
+    width: 50px;
+    height: 50px;
+}
+#logo_apple {
+    width: 45px;
+    height: 50px;
+}
+#logo_motorola {
+    width: 50px;
+    height: 50px;
+}
+#logo_realme {
+    width: 70px;
+    height: 40px;
+}
+#logo_huawei {
+    width: 90px;
+    height: 50px;
+}
+#logo_samsung {
+    width: 110px;
+    height: 90px;
+}
+.produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 50px 0 50px;
+    box-shadow: 1px 1px 10px 5px;
+}
+    .nav_produto {
+    all: unset;
+}

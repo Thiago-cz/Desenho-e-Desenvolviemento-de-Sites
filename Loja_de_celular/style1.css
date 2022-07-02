@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+body {
+    background-image: radial-gradient(circle at 50% 50%, #ffffff 0, #ffffff 10%, #ecffff 20%, #d2ffff 30%, #b4f8ff 40%,
+    #93e9ff 50%, #6fdafb 60%, #4bcbf9 70%, #1dbef8 80%, #00b1f7 90%, #00a5f5 100%);
+}
+.cabecalho {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 25px 10px;
+}
+#logo_nome{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+#icon_cep {
+    width: 29px;
+    height: 29px;
+}
+#input_cep {
+    all: unset;
+    width: 110px;
+    
+}
+.cep {
+    display: flex;
+    height: 30px;
+    width: 135px;
+    border-radius: 7px;
+    border: solid 1px black;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    height: 50px;
+    height: 50px;
+}
+#lupa {
+    width: 20px;
+    height: 20px;
+}
+#buscar {
+    all: unset;
+    width: 90%;
+}
+.cxpesquisa {
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    border: solid 1px black;
+    display: flex;
+    height: 25px;
+    width: 300px;
+    justify-content: space-between;
+}
+.btn1 {
+    all: unset;
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
+    transition: 300ms ease-in-out;
+    height: 30px;
+}
+.btn1:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: underline;
+}
+.btn2 {
+    all:unset;
+    border-radius: 3px;
+    border: solid 1px black;
+    
+}
+.btn2:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo2 {
+    height: 30px;
+    width: 30px;
+}
+nav p {
+    font-size: 10px;
+}
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2 {
+    display: flex;
+    width: 73%;
+    justify-content: center;
+}
+.navtop {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+}
+.marca {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px 10px 20px;
+}
+#nome {
+    font-family: 'DM Serif Display', serif;
+}
+#login {
+    display: grid;
+    align-items: center;
+    gap: 10px;
+}
+#login button {
+    all: unset;
+    font-size: 20px;
+}
+#login button:hover {
+    text-decoration: underline;
+}
+.logo_marca {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 20px;
+    border-radius: 50px;
+}
+.logo_marca:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+nav ul p {
+    font-size: 15px;
+}
+.destaque_pai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 35px;
+    gap: 35px;
+
+}
+.destaque_f {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 7px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 17vw;
+
+}
+.destaque_f:hover {
+    box-shadow: 0 0 10px 2px;
+}
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
