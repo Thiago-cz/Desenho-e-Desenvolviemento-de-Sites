@@ -1,0 +1,101 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+body {
+    background-image: url(./Imagens/fundo.png);
+}
+h1 {
+    width: 30%;
+}
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    height: 120px;
+    box-shadow: 0px 10px 50px 0px;
+    
+}
+
+nav button {
+    height: 40px;
+    width: 95px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 0px 20px 0 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px 2px;
+}
+
+
+.dest {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 60px 0 60px;
+
+}
+.produto:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 3px;
+    cursor: pointer;
+    
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+.produto {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 30px 0 10px 20px;
+    border-radius: 20px;
+    transition: 300ms ease-in-out;
+
+
+}
+.fot {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color: bisque;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 30px;
+}
+#fot {
+    width: 50%;
+    height: 110px;
+    text-align: center;
+}
+.logoimg {
+    width: 50px;
+    height: 50px;
+    opacity: 70%;
+    padding: 30px 10px 10px 10px;
+}
+.logo_marca {
+    width: 100px;
+    height: 100px;
+}
+#final {
+    text-align: center;
+}
