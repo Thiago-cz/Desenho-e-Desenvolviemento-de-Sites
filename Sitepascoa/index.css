@@ -1,0 +1,90 @@
+body {
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 8px;
+    background-image: url(./img/fundo.jpg);
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+.imagem1{
+    height: 60px;
+    width: 69px;
+}
+
+.corpo {
+    padding-left: 95px;
+    padding-right: 95px;
+    text-align: justify;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+}
+h2 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-size: 25px;
+}
+footer {
+    background-color: black;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer p {
+    font-size: 9px;
+    padding-right: 25px;
+}
+.conteiner {
+    display: flex;
+}
+.img2 {
+    margin: 25px 10px 45px 0px;
+    border-style: groove;
+    border-radius: 20px;
+    width: 290px;
+    height: 290px;
+}
+.img3 {
+    margin: 25px 0px 45px 90px;
+    width: 450px;
+    border-radius: 20px;
+    border-style: groove;
+}
+.img4 {
+    border-radius: 20px;
+    border-style: groove;
+    margin: 15px 10px 20px 0px;
+    height: 200px;
+    width: 250px;
+}
+.simbolos {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+
+}
+.iimg{
+    width: 100px;x
+    height: 100px;
+
+}
+.logo {
+    width: 25px;
+    height: 25px;
+
+}
