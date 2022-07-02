@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0 12.5%;
+}
+
+header {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-color: rgba(140, 83, 131, 0.7);
+    z-index: 1;
+}
+
+#slogan {
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    width: 400px;
+    height: 400px;
+}
+
+#img_logo {
+    width: 160px;
+    height: 190px;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+
+#login_cad {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 20%;
+    left: 77.5%;
+    width: 22.7%;
+    justify-content: left;
+    gap: 5px;
+    display: flex;
+}
+
+.btn0 {
+    all: unset;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 300ms;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn0:hover {
+    background-color: rgb(255, 75, 75);
+    color: white;
+    cursor: pointer;
+}
+
+#btn_login {
+    width: 4.5vw;
+    text-align: center;
+}
+
+#btn_produtos {
+    width: 6.6vw;
+    text-align: center;
+}
+
+#btn_sobre {
+    width: 5.2vw;
+    text-align: center;
+}
+
+#cep {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    transition: 300ms;
+}
+
+#cep:hover {
+    background-color: rgb(255, 75, 75);
+    cursor: pointer;
+}
+
+#cep select {
+    all: unset;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+#cep select option {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#lupa {
+    width: 5%;
+    height: 100%;
+}
+
+#pesq {
+    display: flex;
+    position: sticky;
+    top: 5px;
+    left: 0;
+    margin: 20px 12.5%;
+    width: 70%;
+    height: 30px;
+    background-color: rgb(140, 83, 131);
+    border-radius: 15px;
+    z-index: 3;
+}
+
+#pesq input {
+    all: unset;
+    width: 95%;
+    height: 100%;
+}
+
+#pesq input::placeholder {
+    color: white;
+    padding: 0 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#div_video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0%;
+
+}
+
+#video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+hr {
+    height: 1px;
+    background-color: black;
+    margin: 20px 50px
+}
+
+#servicos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.img_servico {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50.8%;
+    opacity: 60%;
+    border-radius: 15px 15px 0 0;
+}
+
+.servico1 {
+    position: relative;
+    width: 27%;
+    height: 30vh;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.servico1 h2 {
+    position: absolute;
+    width: 100%;
+    margin: 27% 0 02% 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+}
+
+.info0 {
+    display: flex;
+    margin-top: 38%;
+}
+
+.info1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 50%;
+    align-items: baseline;
+    padding: 0 5%;
+}
+
+.info2 {
+    display: grid;
+    text-align: left;
+    width: 50%;
+}
+
+.btn_agendar {
+    all: unset;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 300ms;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn_agendar:hover {
+    background-color: rgb(255, 75, 75);
+    color: white;
+    cursor: pointer;
+}
+
+#page {
+    background-color: white;
+    height: 200vh
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    width:100%;
+    height: 100%;
+    padding: 10vh 0;
+
+}
+#nav_fot {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+}
+#ul1 {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+#ul1 a {
+    opacity: 60%;
+    transition: 300ms;
+}
+#ul1 a:hover {
+    opacity: 100%;
+}
+#ul2 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+.img_logo_ft {
+    width: 50px;
+    height: 50px;
+    margin: 0 30px;
+    opacity: 60%;
+}
+.img_logo_ft:hover {
+    opacity: 100%;
+    transition: 300ms;
+}
+footer p {
+    text-align: center;
+    opacity: 60%;
+}

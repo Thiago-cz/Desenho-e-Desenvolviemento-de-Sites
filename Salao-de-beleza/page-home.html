@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <div id="div_video">
+                <video autoplay="true" muted="true" loop="true" id="video">
+                    <source src="./Imagens/video_fundo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <figure>
+                <img src="./Imagens/logo.png" alt="" id="img_logo">
+            </figure>
+
+
+            <nav>
+                <ul id="login_cad">
+                    <div id="cep">
+                        <select name="Estado" id="estado">Estado
+                            <option value="0">Escolha o Estado</option>
+                            <option value="1">Acre</option>
+                            <option value="1">Amapá</option>
+                            <option value="1">Amazonas</option>
+                            <option value="1">Bahia</option>
+                            <option value="1">Ceará</option>
+                            <option value="1">Distrito Federal</option>
+                            <option value="1">Espírito Santo</option>
+                            <option value="1">Goias</option>
+                            <option value="1">Maranhão</option>
+                            <option value="1">Mato Grosso</option>
+                            <option value="1"> Mato Grosso do Sul</option>
+                            <option value="1">Minas Gerais</option>
+                            <option value="1">Pará</option>
+                            <option value="1">Paraíba</option>
+                            <option value="1">Paraná</option>
+                            <option value="1">Pernambuco</option>
+                            <option value="1">Piauí</option>
+                            <option value="1">Rio de Janeiro</option>
+                            <option value="1">Rio Grande do Norte</option>
+                            <option value="1">Rio Grande do Sul</option>
+                            <option value="1">Ronônia</option>
+                            <option value="1">Roraima</option>
+                            <option value="1">Santa Catarina</option>
+                            <option value="1">São Paulo</option>
+                            <option value="1">Sergipe</option>
+                            <option value="1">Tocantins</option>
+                        </select>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <button class="btn0" id="btn_login">Login &nbsp;<i class="fa-solid fa-user"></i></button>
+                    <button class="btn0">Agendamentos &nbsp;<i class="fa-solid fa-address-book"></i></button>
+                    <button class="btn0" id="btn_produtos">Produtos &nbsp;<i class="fa-solid fa-scissors"></i></button>
+                    <button class="btn0">Cadastre seu salão &nbsp;<i class="fa-solid fa-plus"></i></button>
+                    <button class="btn0" id="btn_sobre">Sobre &nbsp;<i class="fa-solid fa-at"></i></button>
+
+                </ul>
+
+            </nav>
+            <img src="./Imagens/slogann.png" alt="" id="slogan">
+        </header>
+        <div id="pesq">
+            <input type="text" placeholder="Pesquisar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="lupa">
+                <path
+                    d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z" />
+            </svg>
+        </div>
+        <h1>Conheça nossos serviços</h1>
+        <hr>
+        <section id="servicos">
+            <div class="servico1">
+                <img src="./Imagens/corte-de-cabelo-masculino.jpg" alt="" class="img_servico">
+                <h2>Corte de cabelo Masculino</h2>
+                <div class="info0">
+                    <div class="info1">
+                        <p><b>Preço:</b> R$ 40,00</p>
+                        <p><b>Duração:</b> 40min</p>
+                        <p><b>Classificação:</b> <br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="info2">
+                        <p><b>segunda à sexta:</b><br>
+                            08:00 até 12:00 <br>
+                            13:30 até 17:00</p>
+                        <p><b>Sabado:</b><br>
+                            09:00 até 13:00 <br>
+                            14:00 até 18:00</p>
+                    </div>
+                </div>
+                <button class="btn_agendar">Agendar</button>
+            </div>
+            <div class="servico1">
+                <img src="./Imagens/cortes-de-cabelo-feminino.jpg" alt="" class="img_servico">
+                <h2>Corte de cabelo Feminino</h2>
+                <div class="info0">
+                    <div class="info1">
+                        <p><b>Preço:</b> R$ 80,00</p>
+                        <p><b>Duração:</b> 2hrs</p>
+                        <p><b>Classificação:</b> <br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="info2">
+                        <p><b>segunda à sexta:</b><br>
+                            08:00 até 12:00 <br>
+                            13:30 até 17:00</p>
+                        <p><b>Sabado:</b><br>
+                            09:00 até 13:00 <br>
+                            14:00 até 18:00</p>
+                    </div>
+                </div>
+                <button class="btn_agendar">Agendar</button>
+            </div>
+            <div class="servico1">
+                <img src="./Imagens/hidratacao-cabelo.jpg" alt="" class="img_servico">
+                <h2>Hidratação de Cabelo</h2>
+                <div class="info0">
+                    <div class="info1">
+                        <p><b>Preço:</b> R$ 120,00</p>
+                        <p><b>Duração:</b> 1hr e 30min</p>
+                        <p><b>Classificação:</b> <br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="info2">
+                        <p><b>segunda à sexta:</b><br>
+                            08:00 até 12:00 <br>
+                            13:30 até 17:00</p>
+                        <p><b>Sabado:</b><br>
+                            09:00 até 13:00 <br>
+                            14:00 até 18:00</p>
+                    </div>
+                </div>
+                <button class="btn_agendar">Agendar</button>
+            </div>
+            <div class="servico1">
+                <img src="./Imagens/manicure.jpeg" alt="" class="img_servico">
+                <h2>Manicure</h2>
+                <div class="info0">
+                    <div class="info1">
+                        <p><b>Preço:</b> R$ 45,00</p>
+                        <p><b>Duração:</b> 1hr</p>
+                        <p><b>Classificação:</b> <br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="info2">
+                        <p><b>segunda à sexta:</b><br>
+                            08:00 até 12:00 <br>
+                            13:30 até 17:00</p>
+                        <p><b>Sabado:</b><br>
+                            09:00 até 13:00 <br>
+                            14:00 até 18:00</p>
+                    </div>
+                </div>
+                <button class="btn_agendar">Agendar</button>
+            </div>
+            <div class="servico1">
+                <img src="./Imagens/pedicure.jpg" alt="" class="img_servico">
+                <h2>Pedicure</h2>
+                <div class="info0">
+                    <div class="info1">
+                        <p><b>Preço:</b> R$ 45,00</p>
+                        <p><b>Duração:</b> 50min</p>
+                        <p><b>Classificação:</b> <br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="info2">
+                        <p><b>segunda à sexta:</b><br>
+                            08:00 até 12:00 <br>
+                            13:30 até 17:00</p>
+                        <p><b>Sabado:</b><br>
+                            09:00 até 13:00 <br>
+                            14:00 até 18:00</p>
+                    </div>
+                </div>
+                <button class="btn_agendar">Agendar</button>
+            </div>
+            <div class="servico1">
+                <img src="./Imagens/limpeza-de-pele.jpg" alt="" class="img_servico">
+                <h2>Limpeza de Pele</h2>
+                <div class="info0">
+                    <div class="info1">
+                        <p><b>Preço:</b> R$ 100,00</p>
+                        <p><b>Duração:</b> 2hrs</p>
+                        <p><b>Classificação:</b> <br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="info2">
+                        <p><b>segunda à sexta:</b><br>
+                            08:00 até 12:00 <br>
+                            13:30 até 17:00</p>
+                        <p><b>Sabado:</b><br>
+                            09:00 até 13:00 <br>
+                            14:00 até 18:00</p>
+                    </div>
+                </div>
+                <button class="btn_agendar">Agendar</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <nav id="nav_fot">
+            <ul id="ul1">
+                <a href="Quem-somos.html" class="a_footer">Quem somos</a>
+                <a href="Perguntas -freq.html" class="a_footer">Perguntas Frequentes</a>
+                <a href="Politica-de-priv.html" class="a_footer">Politica de Privacidade</a>
+                <a href="Imprensa.html" class="a_footer">Imprensa</a>
+                <a href="Termos-de-uso.html" class="a_footer">Termos de Uso</a>
+            </ul>
+            <ul id="ul2">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="./Imagens/Logo-Facebook.png" alt="" class="img_logo_ft">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=pt_BR&gl=US"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="./Imagens/logo-telegran.png" alt="" class="img_logo_ft">
+                </a>
+                <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <img src="./Imagens/Logo-twitter.png" alt="" class="img_logo_ft">
+                </a>
+                <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <img src="./Imagens/Logo-instagram.png" alt="" class="img_logo_ft">
+                </a>
+            </ul>
+        </nav>
+        <hr>
+
+        <p>Desenvolvido por Thiago Carvalho &copy; <br>
+            2020 - 2022</p>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/04395bbf19.js" crossorigin="anonymous"></script>
+
+</html>
