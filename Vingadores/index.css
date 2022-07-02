@@ -1,0 +1,48 @@
+header div img {
+    width: 700px;
+    height: 400px;
+
+}
+.centralizar{
+    text-align: center;
+    align-items: center;
+}
+.capitao{
+    width: 1000px;
+    height: 600px;
+}
+.homemaranha {
+    width: 1000px;
+    height: 600px;
+}
+.joias {
+    width: 500px;
+    height: 300px;
+}
+body {
+    background-image: url(./img/fundo.jpg);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+header p {
+    text-align: center;
+}
+img {
+    border-radius: 10px;
+
+}
+h2 {
+    color: blue;
+}
+h1{
+    color: blueviolet;
+}
+footer {
+    text-align: center;
+}
