@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    color: #ccc;
+
+}
+body {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+body::-webkit-scrollbar {
+    background-color: #888;
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #000;
+}
+header {
+    color: #ccc;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 27vh;
+    padding-top: 5%;
+    background: linear-gradient(90deg, rgba(1,57,89,1) 0%, rgba(12,123,198,1) 50%, rgba(11,73,96,1) 100%);
+}
+#logo {
+    position: absolute;
+    top: 2%;
+    left: 42%;
+    width: 200px;
+    height: 100px;
+}
+#nav-h {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+}
+#div_menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#label_1 {
+    position: absolute;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-left: 10px;
+    z-index: 2;
+    transition: .6s;
+}
+#label_1:hover {
+    color:#eee;
+}
+input[type="checkbox"] {
+    display: none;
+}
+#nav_menu{
+    position: absolute;
+    width: 220px;
+    left: -220px;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    color: #ddd;
+    z-index: 1;
+    transition: all .5s;
+}
+#ul_menu {
+    padding-top: 25%;
+    width: 100%;
+    height: 75%;
+    font-size: 1.5rem;
+}
+#ul_menu li {
+    width: 90%;
+    height: 7%;
+    padding-left: 10px;
+    transition: .6s;
+    border-radius: 5px;
+}
+#ul_menu li:hover {
+    background-color: #999;
+}
+input[type="checkbox"]:checked ~ #nav_menu {
+    left: 0;
+}
+
+#btn_login {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#login {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+#btn_header {
+    margin: 5% auto;
+}
+.btn1 {
+    all: unset;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn1:hover {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 7px;
+    color: #fff;
+    transition: .6s;
+}
+#busca {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    font-size: 1.4rem;    
+    border: 3px solid #ccc;
+    border-radius: 10px;    
+}
+
+#busca input {
+    all: unset;
+    width: 95%;
+    height: 5vh;
+}
+#busca input::placeholder {
+    color: #ccc;
+    padding: 10px;
+}
+#content h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    width: 80%;
+    margin: 5% 0;
+}
+#content {
+    background-color: #bbb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5%;
+    width: 100%;
+}
+article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+article h1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 80%;
+    margin: 5% 0;
+}
+article h3 {
+    font-size: 1.8rem;
+    margin-bottom: 3%;
+}
+
+#content h2 {
+    text-align: center;
+    width: 80%;
+    margin-top: 5%;
+    font-size: 2rem;
+}
+article p {
+    text-align: justify;
+    width: 100%;
+    padding: 0 15%;
+    margin: 1.5% auto;
+    font-size: 1.5rem;
+}
+#slider, #slider1, #slider2{
+    position: relative;
+    width: 66.3%;
+    height: 65vh;
+    overflow: hidden;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 3% 0 0 0; 
+}
+#slides, #slides1, #slides2 {
+    display:flex;
+    width: 500%;
+    height: 100%;
+}
+#slides input, #slides1 input, #slides2 input {
+    display: none;
+}
+.slide, .slide1, .slide2 {
+    width: 20%;
+    height: 100%;
+    transition: 1s;
+}
+.slide img, .slide1 img, .slide2 img {
+    width: 100%;
+    height: 100%;
+}
+.manual-nav, .manual-nav1, .manual-nav2 {
+    position:absolute;
+    bottom: 5%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.manual-btn, .manual-btn1, .manual-btn2 {
+    border: solid 2px rgb(0, 0, 0);
+    width: 1%;
+    height: 1%;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 0 1%;
+    transition: .4s;
+}
+
+.manual-btn:hover, .manual-btn1:hover, .manual-btn2:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#radio1:checked ~ .first, #radio11:checked ~.first1, #radio21:checked ~.first2 {
+    margin-left:0
+}
+#radio2:checked ~ .first, #radio12:checked ~.first1, #radio22:checked ~.first2 {
+    margin-left: -20%;
+}
+#radio3:checked ~ .first, #radio13:checked ~.first1, #radio23:checked ~.first2 {
+    margin-left: -40%;
+}
+#radio4:checked ~ .first, #radio14:checked ~.first1, #radio24:checked ~.first2 {
+    margin-left: -60%;
+}
+#radio5:checked ~ .first, #radio15:checked ~.first1, #radio25:checked ~.first2 {
+    margin-left: -80%;
+}
+
+.navigation, .navigation1, .navigation2 {
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+.navigation div, .navigation1 div, .navigation2 div {
+    width: 1%;
+    height: 1%;
+    padding: 4px;
+    border: solid 2px black;
+    margin: 0 1%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+#radio1:checked ~ .navigation .btn1, #radio11:checked ~ .navigation1 .btn1, #radio21:checked ~.navigation2 .btn1 {
+    background-color: white;
+}
+#radio2:checked ~ .navigation .btn2, #radio12:checked ~ .navigation1 .btn2, #radio22:checked ~.navigation2 .btn2 {
+    background-color: white;
+}
+#radio3:checked ~ .navigation .btn3, #radio13:checked ~ .navigation1 .btn3, #radio23:checked ~.navigation2 .btn3 {
+    background-color: white;
+}
+#radio4:checked ~ .navigation .btn4, #radio14:checked ~ .navigation1 .btn4, #radio24:checked ~.navigation2 .btn4 {
+    background-color: white;
+}
+#radio5:checked ~ .navigation .btn5, #radio15:checked ~ .navigation1 .btn5, #radio25:checked ~.navigation2 .btn5 {
+    background-color: white;
+}
+
+
+#btn_top {
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 2rem;
+    opacity: 60%;
+    transition: .6s;
+    color: #000;
+}
+#btn_top:hover {
+    opacity: 100%;
+    font-size: 2.5rem;
+}
+footer hr{
+    width: 99.8%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    border: #333;
+}
+footer {
+    color: #bbb;
+    position: relative;
+    padding: 3% 0 10% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: baseline;
+    background: linear-gradient(90deg, rgba(1,57,89,1) 0%, rgba(12,123,198,1) 50%, rgba(11,73,96,1) 100%);    
+}   
+address, #social, #resto {
+    width: 25%;    
+}
+#logo_footer {
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    opacity: 40%;
+    bottom: 35px;
+    left: 45%;
+}
+#fim {
+    width: 80%;
+    position: absolute;
+    bottom: 15px;
+    padding-right: 10%;
+    text-align: center;    
+}
+
+/*Passagem*/
+
+#passagem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 55%;
+    background-color: rgba(100,100,100);
+    height: 20%;
+    margin: 5% 0 0 0;
+    padding: 1% 1% 2% 1%;
+    border-radius: 10px;
+}
+#ida_volta, #tipo_de_passagem, #passageiro, #icidade, #dataIda, #dataVolta, #btn_buscar {
+    height: 4.7vh;
+    padding: 5px;
+    border: solid 2px #333;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+#n-passageiros {
+    width: 8%;
+    height: 4.7vh;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: solid 2px #333;
+    
+}
+#btn_buscar {
+    width: 20%;
+}
+/*Pacote*/
+#pct {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+}
+.img_pct {
+    width: 20%;
+    height: 95%;
+    margin: auto auto;
+}
+.img_pct1 {
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.img_pct1:hover {
+    width: 95%;
+    height:95%;
+    transform: translateX(2.5%);
+    transform: translatey(2.5%);
+    cursor: pointer;
+}
+/*Hospedagem*/
+#ht_estrela h2, #ht-malibu h2, #ht-sunset h2 {
+    width: 100%;
+}
+
